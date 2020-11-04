@@ -33,7 +33,7 @@ const Hero = () => {
           <TextWrapper>
             <div className="text">Easily Discover</div>
 
-            <div className ="text" >
+            <div className ="text2" >
               <span className="span-text">Hair Care</span>
 
               <span className="span-text"> Products</span>
@@ -43,10 +43,8 @@ const Hero = () => {
                 <NavBtnLink to='/discover your match'>
                             Discover your match
                 </NavBtnLink>
-        </NavBtn>
+            </NavBtn>
           </TextWrapper>
-
-          
 
         </HeroText>
 

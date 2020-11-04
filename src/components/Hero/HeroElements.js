@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { Link as LinkRouter } from "react-router-dom";
+
+
 export const HeroImg = styled.div`
   position: relative;
   background-color: #102421;
@@ -31,6 +33,17 @@ export const TextWrapper = styled.div`
   font-size: 4rem;
   line-height: 2.8125rem;
   color: #c7e0bf;
+  @media screen and (max-width: 600px) {
+    top: 9.25rem;
+    font-size: 2.6rem;
+    row-gap: 0;
+    line-height: 2.6125rem;
+    left: 30px;
+    .text2{
+        display: flex;
+        flex-direction: column;
+    }
+  }
 `;
 
 export const ImageDiv = styled.div`
@@ -95,7 +108,7 @@ export const OverLay = styled.div`
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.85) 1%, transparent);
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.80) 1%, transparent);
 
   @media screen and (max-width: 600px) {
   }
@@ -106,7 +119,7 @@ export const NavBtn = styled.nav`
   align-items: center;
 
   @media screen and (max-width: 760px) {
-    display: none;
+    /* display: none; */
   }
 `;
 
@@ -128,5 +141,8 @@ export const NavBtnLink = styled(LinkRouter)`
     font-family: Pangram;
     letter-spacing: 0.1em;
     line-height: 1.875rem;
+    @media screen and (max-width: 760px) {
+        font-size: 0.8rem;
+  }
 
     `;

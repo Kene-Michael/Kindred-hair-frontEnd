@@ -15,9 +15,11 @@ export const Nav = styled.nav`
     top: 0;
     z-index: 10;
     // justify-content: flex-start;
+    
 
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
+
     }
 
 `;
@@ -47,15 +49,20 @@ export const NavLogo = styled(LinkRouter)`
     font-style: normal;
     line-height: 1.8281rem;
 
+    @media screen and (max-width: 600px) {
+        margin-left: 0.5rem;
+    }
+
 
 `;
 
 export const MobileIcon= styled.div`
     font-size: 	1.5625rem;
-    cursor: pointer;  
+    cursor: pointer;
+    
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 600px) {
     display: block;
     position: absolute;
     top: 0;
@@ -63,7 +70,9 @@ export const MobileIcon= styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    max-width: 760px;
+    max-width: 600px;
+    /* border-left: 1px #102421; */
+    /* border-left: 1px solid #102421; */
 
 }
 @media screen and (max-width: 600px) {
@@ -75,7 +84,6 @@ export const MobileIcon= styled.div`
     font-size: 1.8rem;
     cursor: pointer;
     max-width: 600px;
-
 }
 `;
 
@@ -88,6 +96,8 @@ export const NavMenu = styled.ul`
     white-space: nowrap;
     // justify-content: flex-start;
     padding: 0px 25px;
+
+    
 
     @media screen and (max-width: 760px) {
         display: none;
@@ -103,8 +113,22 @@ export const NavMenu2 = styled.ul`
     text-align: center;
     margin-left: 420px;
     width: 100vw;
-    white-space: nowrap;
-    // justify-content: flex-end;
+    white-space: nowrap; 
+    
+    @media screen and (max-width: 600px) {
+        margin-left:170px;
+    }
+    .border{
+        display: none;
+        height: 70px;
+        margin-right: 15px;
+        @media screen and (max-width: 600px) {
+            display: block;
+            border: 0.3px solid #102421;
+            opacity: 0.4;
+            height: 70px;
+        }
+    }
 `;
 
 export const NavItem = styled.li`
