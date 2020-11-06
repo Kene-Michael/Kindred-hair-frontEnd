@@ -33,7 +33,7 @@ export const FeedbackContainer = styled.div`
                 width: 250px;
                 height: 250px;
                 border-radius: 50%;
-                border: 1px solid red;
+                
                 left: -20px;
                 top:5px;
                 background: #264560; 
@@ -43,7 +43,7 @@ export const FeedbackContainer = styled.div`
                 width: 250px;
                 height: 250px;
                 border-radius: 50%;
-                border: 1px solid red;
+                
                 left: -20px;
                 top:5px;
                 background: #ED5D37;
@@ -53,7 +53,8 @@ export const FeedbackContainer = styled.div`
                 width: 250px;
                 height: 250px;
                 border-radius: 50%;
-                border: 1px solid red;
+                
+                
                 left: -20px;
                 top:5px;
                 background: #C8E0BE; 
@@ -63,7 +64,8 @@ export const FeedbackContainer = styled.div`
                 width: 260px;
                 height: 260px;
                 border-radius: 50%;
-                border: 1px solid red;
+                
+                
                 z-index: 1;
             }
         }
