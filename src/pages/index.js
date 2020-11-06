@@ -3,9 +3,13 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Hero from '../components/Hero';
 import Work from '../components/Work';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 import Newsletter from '../components/Newsletter';
-import Journal from '../components/Journal';
+// import Journal from '../components/Journal';
+import Feedback from '../components/Feedback';
+// import Story from '../components/Story';
+// import Brands from '../components/Brands';
+
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -20,9 +24,12 @@ const Home = () => {
             <Navbar toggle= {toggle}/>
             <Hero />
             <Work />
-            <Journal />
-            <Newsletter />
-            <Footer />
+             <Feedback />
+            {/* <Story /> */}
+            {/* <Brands /> */}
+            {/* <Journal />  */}
+             <Newsletter /> 
+            {/* <Footer /> */}
         </>
     )
 }

@@ -7,7 +7,7 @@ position: absolute;
 height: 440px;
 width: 100%;
 color: #fff;
-margin-bottom:100px;
+//margin-bottom:100px; 
     .text {
             font-family: Sunflora;
             font-weight: 500;
@@ -15,7 +15,7 @@ margin-bottom:100px;
             font-size: 55px;
             align-items: center;
             line-height: 60px;
-            margin: 95px 445px 189px 425px;
+           margin: 95px 445px 0px 425px;
 
             .text-span{
             padding-left: 45px;

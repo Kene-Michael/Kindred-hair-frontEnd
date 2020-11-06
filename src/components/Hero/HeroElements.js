@@ -5,6 +5,7 @@ import { Link as LinkRouter } from "react-router-dom";
 export const HeroImg = styled.div`
   position: relative;
   background-color: #102421;
+  height: 100%;
 `;
 
 export const Image = styled.img`

@@ -5,10 +5,13 @@ const Story = () => {
     return (
         <>
         <StoryContainer>
-            <div>Hello</div>
+            <div>
+
+                
+            </div>
         </StoryContainer>
         </>
     )
 }
 
-export default index
+export default Story
