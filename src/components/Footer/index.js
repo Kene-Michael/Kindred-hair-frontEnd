@@ -1,11 +1,12 @@
 import React from 'react'
-import {FooterContainer, FooterLogo, FooterText} from './FooterElements'
+import {FooterContainer, FooterLogo, FooterText, FooterBottom} from './FooterElements'
 
 const Footer = () => {
     return (
         <>
-            <FooterLogo>KindredHair</FooterLogo>
+        
         <FooterContainer> 
+            <FooterLogo>KindredHair</FooterLogo>
             <FooterText>
                 Press Area
             </FooterText>
@@ -18,6 +19,12 @@ const Footer = () => {
             <FooterText>
                 Newsletter
             </FooterText>
+            <FooterBottom>
+                <span>DISCLAMER</span> 
+                <span>GENERAL CONDITION</span>
+                <span>PRIVACY STATEMENT</span>
+                <span>&copy; 2020 KINDRED HAIR</span>
+            </FooterBottom>
         </FooterContainer>
             
         </>

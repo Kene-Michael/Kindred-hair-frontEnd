@@ -4,8 +4,6 @@ import { SidebarContainer,
         CloseIcon,
         SidebarLink,
         SidebarWrapper,
-        SidebarRoute,
-        SideBtnWrap,
         SidebarMenu
     } 
     from './SidebarElements';
@@ -25,19 +23,22 @@ const Sidebar = ({ isOpen, toggle }) => {
                         <SidebarLink to = "our story" onClick={toggle}>
                             Our Story
                         </SidebarLink>
-                        <SidebarLink to = "my journey" onClick={toggle}>
-                            My Journey
+                        <SidebarLink to = "shop" onClick={toggle}>
+                            Shop
                         </SidebarLink>
                        
                         
-                        <SidebarLink to = "/signin" onClick={toggle}>
-                            Sign In
+                        <SidebarLink to = "connect" onClick={toggle}>
+                            Connect
                         </SidebarLink>
+                        <SidebarLink to = "/articles" onClick={toggle}>
+                            Articles
+                        </SidebarLink>
+                        <SidebarLink to = "/contact" onClick={toggle}>
+                            Contact
+                        </SidebarLink>
+                        
                     </SidebarMenu>
-
-                    <SideBtnWrap>
-                        <SidebarRoute to = "/discover your match" >Discover Your Match</SidebarRoute>
-                    </SideBtnWrap>
 
 
                 </SidebarWrapper>

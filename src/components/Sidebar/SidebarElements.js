@@ -9,7 +9,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: white;
+    background: #225350;
     display: grid;
     align-items: center;
     top: 0;
@@ -64,41 +64,41 @@ export const SidebarLink = styled(LinkScroll)`
     list-style: none;
     transition: 0.2s ease-in-out;
     text-decoration: none;
-    color: #102421;
+    color: #fff;
     cursor: pointer;
 
-    &:hover {
+    /* &:hover {
         color: blue;
         transition: 0.2s ease-in-out;
-    }
+    } */
 
 
 `;
- export const SideBtnWrap = styled.div`
-    display: flex;
-    justify-content: center;
+//  export const SideBtnWrap = styled.div`
+//     display: flex;
+//     justify-content: center;
 
 
- `;
+//  `;
 
- export const SidebarRoute = styled(LinkRouter)`
-    border-radius: 20px;
-    background: #102421;
-    white-space: nowrap;
-    padding: 16px 64px;
-    color: #fff;
-    font-size: 16px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
+//  export const SidebarRoute = styled(LinkRouter)`
+//     border-radius: 20px;
+//     background: #102421;
+//     white-space: nowrap;
+//     padding: 16px 64px;
+//     color: #fff;
+//     font-size: 16px;
+//     outline: none;
+//     border: none;
+//     cursor: pointer;
+//     transition: all 0.2s ease-in-out;
+//     text-decoration: none;
 
 
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: #01bf71;
-       color:#fff;
-    }
+//     &:hover {
+//         transition: all 0.2s ease-in-out;
+//         background: #01bf71;
+//        color:#fff;
+//     }
  
- `
+//  `
