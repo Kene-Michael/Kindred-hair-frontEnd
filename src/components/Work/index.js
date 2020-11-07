@@ -45,7 +45,7 @@ const Work = () => {
       <div className="circle-container">
         <div className="circle-wrapper">
           <div className="circle">
-            <img className ="img1" src={img1} />
+            <img className ="img1" src={img1} alt=""/>
           </div>
           <div className="text-wrapper">
             <div className="number-img"> <img className="img7" src={img7} alt="img7"/> <div className="text-title">Create</div> </div>
@@ -54,7 +54,7 @@ const Work = () => {
         </div>
         <div className="circle-wrapper">
           <div className="circle">
-              <img className="img2" src={img2} />
+              <img className="img2" src={img2} alt=""/>
           </div>
           <div className="text-wrapper">
             <div className="number-img"> <img className="img7" src={img8} alt="itwo" /><div className="text-title">Discover</div></div>
@@ -63,7 +63,7 @@ const Work = () => {
         </div>
         <div className="circle-wrapper">
           <div className="circle">
-              <img className="img3" src={img3} />
+              <img className="img3" src={img3} alt=""/>
           </div>
           <div className="text-wrapper">
             <div className="number-img"> <img className="img7" src={img9} alt="three" /><div className="text-title">Connect</div> </div>
